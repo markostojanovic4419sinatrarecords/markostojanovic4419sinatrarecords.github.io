@@ -32,16 +32,16 @@ $("#navLinkList li a").mouseleave(function(){
     $(this).removeClass("blueBackground");
 })
 function slider(){
-    if (document.getElementById("slide").src=="file:///D:/MarkoStojanovicSinatraRecords/assets/img/recordingStudio.jpg"){
-        document.getElementById("slide").src="file:///D:/MarkoStojanovicSinatraRecords/assets/img/store.jpg";
+    if (document.getElementById("slide").src=="https://markostojanovic4419sinatrarecords.github.io/assets/img/recordingStudio.jpg"){
+        document.getElementById("slide").src="https://markostojanovic4419sinatrarecords.github.io/assets/img/store.jpg";
         document.getElementById("slide").alt="Store";
     }
-    else if (document.getElementById("slide").src=="file:///D:/MarkoStojanovicSinatraRecords/assets/img/store.jpg"){
-        document.getElementById("slide").src="file:///D:/MarkoStojanovicSinatraRecords/assets/img/museum.jpg";
+    else if (document.getElementById("slide").src=="https://markostojanovic4419sinatrarecords.github.io/assets/img/store.jpg"){
+        document.getElementById("slide").src="https://markostojanovic4419sinatrarecords.github.io/assets/img/museum.jpg";
         document.getElementById("slide").alt="Museum";
     }
     else {
-        document.getElementById("slide").src="file:///D:/MarkoStojanovicSinatraRecords/assets/img/recordingStudio.jpg";
+        document.getElementById("slide").src="https://markostojanovic4419sinatrarecords.github.io/assets/img/recordingStudio.jpg";
         document.getElementById("slide").alt="Recording studio";
     }
     setTimeout("slider()",3000);
@@ -50,7 +50,7 @@ slider();
 document.getElementById("hamburger").addEventListener("click", function() {
 document.getElementById("mobileNavLinkList").classList.toggle("displayFlex");
 });
-if(window.location=='file:///D:/MarkoStojanovicSinatraRecords/index.html'){
+if(window.location=='https://markostojanovic4419sinatrarecords.github.io/index.html'){
 var numberLabels = new Array("Frank Sinatra founded the company","Grammy awards won","First cassette sold","First CD released");
 for (var i=0;i<numberLabels.length;i++){
 var numberLi = document.createElement("li");
@@ -155,8 +155,8 @@ document.querySelectorAll("#bottomLinkList li a span")[i].classList.add(`fa`);
 document.querySelectorAll("#bottomLinkList li a span")[i].classList.add(`${bottomLinkFAClasses[i]}`);
 document.querySelectorAll("#bottomLinkList li a span")[i].setAttribute("aria-hidden","true");
 }
-if(window.location=='file:///D:/MarkoStojanovicSinatraRecords/store.html'){
-    var jazzAlbumImages = new Array("file:///D:/MarkoStojanovicSinatraRecords/assets/img/strangersInTheNight.jpg","file:///D:/MarkoStojanovicSinatraRecords/assets/img/niceNEasy.jpg","file:///D:/MarkoStojanovicSinatraRecords/assets/img/olBlueEyesIsBack.jpg","file:///D:/MarkoStojanovicSinatraRecords/assets/img/theShelterOfYourArms.jpg");
+if(window.location=='https://markostojanovic4419sinatrarecords.github.io/store.html'){
+    var jazzAlbumImages = new Array("https://markostojanovic4419sinatrarecords.github.io/assets/img/strangersInTheNight.jpg","https://markostojanovic4419sinatrarecords.github.io/assets/img/niceNEasy.jpg","https://markostojanovic4419sinatrarecords.github.io/assets/img/olBlueEyesIsBack.jpg","https://markostojanovic4419sinatrarecords.github.io/assets/img/theShelterOfYourArms.jpg");
     var jazzAlbumLabels = new Array(`"Strangers in the Night"`,`"Nice 'n' Easy"`,`"Ol' Blue Eyes Is Back"`,`"The Shelter of Your Arms"`);
     var jazzAlbum1Information = new Array(`Frank Sinatra`,`Strangers in the Night`,`Sinatra Records`);
     var jazzAlbum2Information = new Array(`Frank Sinatra`,`Nice 'n' Easy`,`Sinatra Records`);
@@ -222,7 +222,7 @@ if(window.location=='file:///D:/MarkoStojanovicSinatraRecords/store.html'){
     $('#jazzRecords div:last a').click(function(){
         myFullMod4.show()
     });
-    var rockAndRollAlbumImages = new Array("file:///D:/MarkoStojanovicSinatraRecords/assets/img/aBiggerBang.jpg","file:///D:/MarkoStojanovicSinatraRecords/assets/img/elvisIsBack.jpg","file:///D:/MarkoStojanovicSinatraRecords/assets/img/25.jpg","file:///D:/MarkoStojanovicSinatraRecords/assets/img/memoryAlmostFull.jpg");
+    var rockAndRollAlbumImages = new Array("https://markostojanovic4419sinatrarecords.github.io/assets/img/aBiggerBang.jpg","https://markostojanovic4419sinatrarecords.github.io/assets/img/elvisIsBack.jpg","https://markostojanovic4419sinatrarecords.github.io/assets/img/25.jpg","https://markostojanovic4419sinatrarecords.github.io/assets/img/memoryAlmostFull.jpg");
     var rockAndRollAlbumLabels = new Array(`"A Bigger Bang"`,`"Elvis Is Back!"`,`"25"`,`"Memory Almost Full"`);
     var rockAndRollAlbum1Information = new Array(`The Rolling Stones`,`A Bigger Bang`,`Virgin Records`);
     var rockAndRollAlbum2Information = new Array(`Elvis Presley`,`Elvis Is Back!`,`Sinatra Records`);
@@ -288,7 +288,7 @@ if(window.location=='file:///D:/MarkoStojanovicSinatraRecords/store.html'){
     $('#rockAndRollRecords div:last a').click(function(){
         myFullMod8.show()
     });
-    var rhythmAndBluesAlbumImages = new Array("file:///D:/MarkoStojanovicSinatraRecords/assets/img/setTheNightToMusic.jpg","file:///D:/MarkoStojanovicSinatraRecords/assets/img/backToBasics.jpg","file:///D:/MarkoStojanovicSinatraRecords/assets/img/spiritInTheDark.jpg","file:///D:/MarkoStojanovicSinatraRecords/assets/img/yourHeartsInGoodHands.jpg");
+    var rhythmAndBluesAlbumImages = new Array("https://markostojanovic4419sinatrarecords.github.io/assets/img/setTheNightToMusic.jpg","https://markostojanovic4419sinatrarecords.github.io/assets/img/backToBasics.jpg","https://markostojanovic4419sinatrarecords.github.io/assets/img/spiritInTheDark.jpg","https://markostojanovic4419sinatrarecords.github.io/assets/img/yourHeartsInGoodHands.jpg");
     var rhythmAndBluesAlbumLabels = new Array(`"Set the Night to Music"`,`"Back to Basics"`,`"Spirit in the Dark"`,`"Your Heart's in Good Hands"`);
     var rhythmAndBluesAlbum1Information = new Array(`Roberta Flack`,`Set the Night to Music`,`Sinatra Records`);
     var rhythmAndBluesAlbum2Information = new Array(`Christina Aguilera`,`Back to Basics`,`Sinatra Records`);
@@ -354,7 +354,7 @@ if(window.location=='file:///D:/MarkoStojanovicSinatraRecords/store.html'){
     $('#rhythmAndBluesRecords div:last a').click(function(){
         myFullMod12.show()
     });
-    var traditionalPopAlbumImages = new Array("file:///D:/MarkoStojanovicSinatraRecords/assets/img/howDoesThatGrabYou.jpg","file:///D:/MarkoStojanovicSinatraRecords/assets/img/weAreInLove.jpg","file:///D:/MarkoStojanovicSinatraRecords/assets/img/seattle.jpg","file:///D:/MarkoStojanovicSinatraRecords/assets/img/classicSongsMyWay.jpg");
+    var traditionalPopAlbumImages = new Array("https://markostojanovic4419sinatrarecords.github.io/assets/img/howDoesThatGrabYou.jpg","https://markostojanovic4419sinatrarecords.github.io/assets/img/weAreInLove.jpg","https://markostojanovic4419sinatrarecords.github.io/assets/img/seattle.jpg","https://markostojanovic4419sinatrarecords.github.io/assets/img/classicSongsMyWay.jpg");
     var traditionalPopAlbumLabels = new Array(`"How Does That Grab You?"`,`"We Are in Love"`,`"Seattle"`,`"Classic Songs, My Way"`);
     var traditionalPopAlbum1Information = new Array(`Nancy Sinatra`,`How Does That Grab You?`,`Sinatra Records`);
     var traditionalPopAlbum2Information = new Array(`Harry Connick Junior`,`We Are in Love`,`Sinatra Records`);
@@ -431,7 +431,7 @@ if(window.location=='file:///D:/MarkoStojanovicSinatraRecords/store.html'){
     }
     generatingExpandingList();
 }
-if(window.location=='file:///D:/MarkoStojanovicSinatraRecords/contact.html'){
+if(window.location=='https://markostojanovic4419sinatrarecords.github.io/contact.html'){
     document.getElementById("userReasonForContact").addEventListener("click",function(){
         if(document.getElementById("userReasonForContact").options[document.getElementById("userReasonForContact").selectedIndex].value==1 || document.getElementById("userReasonForContact").options[document.getElementById("userReasonForContact").selectedIndex].value==2 || document.getElementById("userReasonForContact").options[document.getElementById("userReasonForContact").selectedIndex].value==3){
             document.getElementById("partnership").classList.add("displayFlex");
