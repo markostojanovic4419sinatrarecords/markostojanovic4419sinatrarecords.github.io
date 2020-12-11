@@ -694,5 +694,5 @@ for (var i=0;i<nonMinifiedFilePaths.length;i++){
     var nonMinifiedFileA = document.createElement("a");
     document.getElementById("nonMinifiedFileList").appendChild(nonMinifiedFileA);
     document.querySelectorAll("#nonMinifiedFileList a")[i].innerHTML=nonMinifiedFileNames[i];
-    document.querySelectorAll("#nonMinifiedFileList a")[i].classList.add("blueColor");
+    document.querySelectorAll("#nonMinifiedFileList a")[i].classList.add("blueColor","nonMinifiedFileMargin");
 }
