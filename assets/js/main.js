@@ -680,8 +680,8 @@ $('#bottomLinkList li:last a').click(function(){
     authorMod.show();
 });
 var detailListPContent = new Array("2 Baker Street, Brooklyn, NYC, NY, USA","+1 202 762 1401","sinatrarecords44&#64gmail.com","&copy; 2020 All rights reserved");
-var detailsAContent = new Array("css","js");
-var detailsAPath = new Array("assets/css/style.min.css","assets/js/main.min.js");
+var nonMinifiedFileNames = new Array("css","js");
+var nonMinifiedFilePaths = new Array("assets/css/style.css","assets/js/main.js");
 for (var i=0;i<detailListPContent.length;i++){
     var detailListLi = document.createElement("li");
     var detailListP = document.createElement("p");
@@ -690,11 +690,9 @@ for (var i=0;i<detailListPContent.length;i++){
     document.querySelectorAll("#detailList li p")[i].innerHTML=detailListPContent[i];
     document.querySelectorAll("#detailList li p")[i].classList.add("blueColor","textAlignCenter");
 }
-for (var i=0;i<detailsAContent.length;i++){
-    var detailsLi = document.createElement("li");
-    var detailsA = document.createElement("a");
-    detailsLi.appendChild(detailsA);
-    document.getElementById("detailList").appendChild(detailsLi);
-    document.querySelectorAll("#detailList li a")[i].innerHTML=detailsAContent[i];
-    document.querySelectorAll("#detailList li a")[i].classList.add("blueColor","textAlignCenter");
+for (var i=0;i<nonMinifiedFilePaths.length;i++){
+    var nonMinifiedFileA = document.createElement("a");
+    document.getElementById("nonMinifiedFileList").appendChild(nonMinifiedFileA);
+    document.querySelectorAll("#nonMinifiedFileList a")[i].innerHTML=nonMinifiedFileNames[i];
+    document.querySelectorAll("#nonMinifiedFileList a")[i].classList.add("blueColor","textAlignCenter");
 }
