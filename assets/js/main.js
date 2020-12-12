@@ -695,4 +695,5 @@ for (var i=0;i<nonMinifiedFilePaths.length;i++){
     document.getElementById("nonMinifiedFileList").appendChild(nonMinifiedFileA);
     document.querySelectorAll("#nonMinifiedFileList a")[i].innerHTML=nonMinifiedFileNames[i];
     document.querySelectorAll("#nonMinifiedFileList a")[i].classList.add("blueColor","nonMinifiedFileMargin");
+    document.querySelectorAll("#nonMinifiedFileList a")[i].href=nonMinifiedPaths[i];
 }
