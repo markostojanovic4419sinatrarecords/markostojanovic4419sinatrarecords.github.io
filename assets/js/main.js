@@ -546,7 +546,7 @@ if(window.location=='https://markostojanovic4419sinatrarecords.github.io/contact
             document.getElementById("emailMessage").classList.add('greenColor');
         }
         else {
-            document.getElementById("emailMessage").innerHTML="You have not filled in this field correctly! For example: Ed.McMahon.123&#643mail.co.us";
+            document.getElementById("emailMessage").innerHTML="You have not filled in this field correctly! For example: ed.mcmahon.123&#643mail.co.us";
             document.getElementById("emailMessage").classList.remove('greenColor');
             document.getElementById("emailMessage").classList.add('redColor');
         }
