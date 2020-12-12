@@ -7,7 +7,7 @@ for (var i=0;i<navLinks.length;i++){
     var navLinkA = document.createElement("a");
     navLinkLi.appendChild(navLinkA);
     document.getElementById("navLinkList").appendChild(navLinkLi);
-    document.querySelectorAll("#navLinkList li a")[i].classList.add("blueColor","buttonLinkPadding","fedoraHat2ClipPath");
+    document.querySelectorAll("#navLinkList li a")[i].classList.add("blueColor","buttonLinkPadding","fedoraHatClipPath");
     document.querySelectorAll("#navLinkList li a")[i].innerHTML=navLinkLabels[i];
     document.querySelectorAll("#navLinkList li a")[i].href=navLinks[i];
 }
@@ -17,7 +17,7 @@ for (var i=0;i<navLinks.length;i++){
     mobileNavLinkLi.appendChild(mobileNavLinkA);
     document.getElementById("mobileNavLinkList").appendChild(mobileNavLinkLi);
     document.querySelectorAll("#mobileNavLinkList li")[i].classList.add("mobileLinksPadding");
-    document.querySelectorAll("#mobileNavLinkList li a")[i].classList.add("blueColor","buttonLinkPadding","fedoraHat2ClipPath");
+    document.querySelectorAll("#mobileNavLinkList li a")[i].classList.add("blueColor","buttonLinkPadding","fedoraHatClipPath");
     document.querySelectorAll("#mobileNavLinkList li a")[i].innerHTML=navLinkLabels[i];
     document.querySelectorAll("#mobileNavLinkList li a")[i].href=navLinks[i];
 }
