@@ -31,6 +31,16 @@ $("#navLinkList li a").mouseleave(function(){
     $(this).addClass("blueColor");
     $(this).removeClass("blueBackground");
 })
+$("#mobileNavLinkList li a").mouseenter(function(){
+    $(this).removeClass("blueColor");
+    $(this).addClass("whiteColor");
+    $(this).addClass("blueBackground");
+})
+$("#mobileNavLinkList li a").mouseleave(function(){
+    $(this).removeClass("whiteColor");
+    $(this).addClass("blueColor");
+    $(this).removeClass("blueBackground");
+})
 function slider(){
     if (document.getElementById("slide").src=="https://markostojanovic4419sinatrarecords.github.io/assets/img/recordingStudio.jpg"){
         document.getElementById("slide").src="https://markostojanovic4419sinatrarecords.github.io/assets/img/store.jpg";
