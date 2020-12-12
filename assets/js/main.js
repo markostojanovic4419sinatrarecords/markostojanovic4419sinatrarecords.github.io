@@ -701,9 +701,11 @@ for (var i=0;i<detailListPContent.length;i++){
     document.querySelectorAll("#detailList li p")[i].classList.add("blueColor","textAlignCenter");
 }
 for (var i=0;i<nonMinifiedFilePaths.length;i++){
+    var nonMinifiedFileLi = document.createElement("li");
     var nonMinifiedFileA = document.createElement("a");
-    document.getElementById("nonMinifiedFileList").appendChild(nonMinifiedFileA);
-    document.querySelectorAll("#nonMinifiedFileList a")[i].innerHTML=nonMinifiedFileNames[i];
-    document.querySelectorAll("#nonMinifiedFileList a")[i].classList.add("blueColor","nonMinifiedFileMargin");
-    document.querySelectorAll("#nonMinifiedFileList a")[i].href=nonMinifiedFilePaths[i];
+    nonMinifiedFileLi.appendChild(nonMinifiedFileA);
+    document.getElementById("nonMinifiedFileList").appendChild(nonMinifiedFileLi);
+    document.querySelectorAll("#nonMinifiedFileList li a")[i].innerHTML=nonMinifiedFileNames[i];
+    document.querySelectorAll("#nonMinifiedFileList li a")[i].classList.add("blueColor","nonMinifiedFileMargin");
+    document.querySelectorAll("#nonMinifiedFileList li a")[i].href=nonMinifiedFilePaths[i];
 }
