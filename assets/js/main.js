@@ -150,7 +150,7 @@ for (var i=0;i<businessHours.length;i++){
     document.querySelectorAll("#businessHourList li p")[i].innerHTML=businessHours[i];
     document.querySelectorAll("#businessHourList li p")[i].classList.add("blueColor","textAlignCenter");
 }
-var bottomLinks = new Array("https://www.facebook.com/frankie.buster.921","https://www.instagram.com/frankie.buster44","sitemap.html","documentation.pdf","#");
+var bottomLinks = new Array("https://www.facebook.com/frankie.buster.921","https://www.instagram.com/frankie.buster44","sitemap.xml","documentation.pdf","#");
 var bottomLinkFAClasses = new Array("fa-facebook","fa-instagram","fa-sitemap","fa-file-text","fa-user");
 for (var i=0;i<bottomLinks.length;i++){
 var bottomLinksLi = document.createElement("li");
