@@ -504,7 +504,7 @@ if(window.location=='https://markostojanovic4419sinatrarecords.github.io/contact
         var namePattern = /^[A-ZČĆŽŠĐ][A-zČĆŽŠĐčćžšđ]+([ ][A-ZČĆŽŠĐ][A-zČĆŽŠĐčćžšđ]+)*$/;
         var emailPattern = /^[a-z0-9]([.]?[a-z0-9]){5,29}[@][a-z0-9]{2,}([.][a-z0-9]{2,})+$/;
         var companyPattern = /^[A-ZČĆŽŠĐ0-9]+([ ]?[A-zČĆŽŠĐčćžšđ0-9])+$/;
-        var addressPattern = /^[123456789][0-9]*([/]([a-zčćžšđ]|([123456789][0-9]*)))*([ ][A-ZČĆŽŠĐ][A-zčćžšđ]*){3,}$/;
+        var addressPattern = /^[123456789][0-9]*([/]([a-zčćžšđ]|([123456789][0-9]*)))?([ ][A-ZČĆŽŠĐ][A-zčćžšđ]*){3,}$/;
         if (document.getElementById("userFirstName").value==''){
             document.getElementById("firstNameMessage").innerHTML="This field must not remain empty!";
             document.getElementById("firstNameMessage").classList.remove('greenColor');
