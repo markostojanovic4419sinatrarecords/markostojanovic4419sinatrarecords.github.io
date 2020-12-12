@@ -1,10 +1,33 @@
 <?xml version="1.0" encoding="utf-8"?>
-<?xml-stylesheet type="text/css" href="assets/css/style.css"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-    <url>
-        <loc>https://markostojanovic4419.github.io/markostojanovicportfolio/index.html</loc>
-        <lastmod>2020-03-02</lastmod>
-        <changefreq>monthly</changefreq>
+	<url>
+		<loc> https://markostojanovic4419sinatrarecords.github.io/index.html</loc>
+		<lastmod>2020-12-12</lastmod>
+		<changefreq>monthly</changefreq>
 		<priority>1</priority>
-    </url>
+	</url>
+	<url>
+		<loc> https://markostojanovic4419sinatrarecords.github.io/store.html </loc>
+		<lastmod>2020-12-12</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.9</priority>
+	</url>
+	<url>
+		<loc> https://markostojanovic4419sinatrarecords.github.io/contact.html</loc>
+		<lastmod>2020-12-12</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.8</priority>
+	</url>
+	<url>
+		<loc> https://markostojanovic4419sinatrarecords.github.io/deals.html</loc>
+		<lastmod>2020-12-12</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.7</priority>
+	</url>
+	<url>
+		<loc> https://markostojanovic4419sinatrarecords.github.io/about.html </loc>
+		<lastmod>2020-12-12</lastmod>
+		<changefreq>yearly</changefreq>
+		<priority>0.6</priority>
+	</url>
 </urlset>
