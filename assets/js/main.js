@@ -696,6 +696,7 @@ for (var i=0;i<nonMinifiedFilePaths.length;i++){
     document.querySelectorAll("#nonMinifiedFileList a")[i].innerHTML=nonMinifiedFileNames[i];
     document.querySelectorAll("#nonMinifiedFileList a")[i].classList.add("blueColor","nonMinifiedFileMargin");
 }
+var windowWidth = $(window).width();
 if(window.location=='https://markostojanovic4419sinatrarecords.github.io/index.html'){
     if (windowWidth < 1121) {
         $("#contact").addClass("fadeScroll");
