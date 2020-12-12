@@ -128,8 +128,8 @@ function firstCDCounter(aFewNumberList, start, end, duration) {
 }
 foundationYearCounter("aFewNumberList li span", 1915, 1947, 5000);
 grammyAwardsCounter("aFewNumberList li span", 0, 5, 5000);
-firstCassetteCounter("aFewNumberList li span", 1915, 1966, 5000);
-firstCDCounter("aFewNumberList li span", 1915, 1991, 5000);
+firstCassetteCounter("aFewNumberList li span", 1947, 1966, 5000);
+firstCDCounter("aFewNumberList li span", 1947, 1991, 5000);
 }
 var businessHours = new Array("Every day","Opening time","10:00 AM","Closing time","10:00 PM");
 for (var i=0;i<businessHours.length;i++){
