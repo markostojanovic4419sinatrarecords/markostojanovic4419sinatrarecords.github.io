@@ -698,41 +698,41 @@ for (var i=0;i<nonMinifiedFilePaths.length;i++){
 }
 if(window.location=='https://markostojanovic4419sinatrarecords.github.io/index.html'){
     if (windowWidth < 1121) {
-        document.getElementById("#contact").classList.add("fadeScroll");
+        $("#contact").addClass("fadeScroll");
     }
     else {
-        document.getElementById("#contact").classList.remove("fadeScroll");
+        $("#contact").removeClass("fadeScroll");
     }
 }
 if(window.location=='https://markostojanovic4419sinatrarecords.github.io/deals.html'){
     if (windowWidth < 1121) {
-        document.getElementById("#ourSupport").classList.add("fadeScroll");
+        $("#ourSupport").addClass("fadeScroll");
     }
     else {
-        document.getElementById("#ourSupport").classList.remove("fadeScroll");
+        $("#ourSupport").removeClass("fadeScroll");
     }
 }
 if(window.location=='https://markostojanovic4419sinatrarecords.github.io/store.html'){
     if (windowWidth < 1121) {
-        document.getElementById("#pop").classList.add("fadeScroll");
+        $("#pop").addClass("fadeScroll");
     }
     else {
-        document.getElementById("#pop").classList.remove("fadeScroll");
+        $("#pop").removeClass("fadeScroll");
     }
 }
 if(window.location=='https://markostojanovic4419sinatrarecords.github.io/about.html'){
     if (windowWidth < 1121) {
-        document.getElementById("#missionAndVision").classList.add("fadeScroll");
+        $("#missionAndVision").addClass("fadeScroll");
     }
     else {
-        document.getElementById("#missionAndVision").classList.remove("fadeScroll");
+        $("#missionAndVision").removeClass("fadeScroll");
     }
 }
 if(window.location=='https://markostojanovic4419sinatrarecords.github.io/contact.html'){
     if (windowWidth < 1121) {
-        document.getElementById("#contactForm").classList.add("fadeScroll");
+        $("#contactForm").addClass("fadeScroll");
     }
     else {
-        document.getElementById("#contactForm").classList.remove("fadeScroll");
+        $("#contactForm").removeClass("fadeScroll");
     }
 }
