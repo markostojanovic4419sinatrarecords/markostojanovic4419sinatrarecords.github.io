@@ -346,6 +346,10 @@ input:focus, select:focus, textarea:focus {
   margin: 0px 5px;
 }
 
+.blueBorder {
+  border: 5px solid #0077ff;
+}
+
 @media screen and (max-width: 1280px) {
   .wrapper {
     width: 85%;
