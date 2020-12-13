@@ -709,13 +709,13 @@ for (var i=0;i<nonMinifiedFilePaths.length;i++){
     document.querySelectorAll("#nonMinifiedFileList li a")[i].classList.add("blueColor","nonMinifiedFileMargin");
     document.querySelectorAll("#nonMinifiedFileList li a")[i].href=nonMinifiedFilePaths[i];
 }
-$("#bottomLinkList li a").mouseenter(function(){
+$("#bottomLinkList li>a").mouseenter(function(){
     $(this).removeClass("blueBackground");
     $(this).removeClass("whiteColor");
     $(this).addClass("blueBorder");
     $(this).addClass("blueColor");
 })
-$("#bottomLinkList li a").mouseleave(function(){
+$("#bottomLinkList li>a").mouseleave(function(){
     $(this).removeClass("blueBorder");
     $(this).removeClass("blueColor");
     $(this).addClass("blueBackground");
