@@ -448,12 +448,10 @@ if(window.location=='https://markostojanovic4419sinatrarecords.github.io/contact
             document.getElementById("meeting").classList.add("displayFlex");
             document.getElementById("userPartner").addEventListener("click",function(){
                 if(document.getElementById("userPartner").options[document.getElementById("userPartner").selectedIndex].value==2){
-                document.querySelector("#partnership div").classList.add("width45");
-                document.getElementById("nameOfTheCompany").classList.add("displayFlex");
+                    document.getElementById("nameOfTheCompany").classList.add("displayFlex");
                 }
                 else {
                     document.getElementById("nameOfTheCompany").classList.remove("displayFlex");
-                    document.querySelector("#partnership div").classList.add("width100");
                 }
             })
             document.getElementById("desiredFormat").classList.remove("displayFlex");
