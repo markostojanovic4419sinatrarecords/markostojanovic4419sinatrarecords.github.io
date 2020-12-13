@@ -404,6 +404,9 @@ input:focus, select:focus, textarea:focus {
   .tabletFlexDirectionColumn {
     flex-direction: column;
   }
+  .tabletAlignItemsCenter {
+    align-items: center;
+  }
   .tabletWidth100 {
     width: 100%;
   }
