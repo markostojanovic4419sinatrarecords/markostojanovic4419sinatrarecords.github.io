@@ -717,6 +717,7 @@ $("#bottomLinkList li a").mouseenter(function(){
 })
 $("#bottomLinkList li a").mouseleave(function(){
     $(this).removeClass("blueBorder");
+    $(this).removeClass("blueColor");
     $(this).addClass("blueBackground");
-    $(this).removeClass("whiteColor");
+    $(this).addClass("whiteColor");
 })
