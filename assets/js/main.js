@@ -432,7 +432,7 @@ if(window.location=='https://markostojanovic4419sinatrarecords.github.io/store.h
     });
     function generatingExpandingList() {
         for (var i=1;i<=(jazzAlbumLabels+rockAndRollAlbumLabels+rhythmAndBluesAlbumLabels+traditionalPopAlbumLabels).length;i++){
-            $(`#myFullMod${i}>.fullmod-content>.fullmod-body>div>ul>li>ul`).hide().click(function(e){e.stopPropagation();});
+            $(`#myFullMod${i}>.fullmod-content>.fullmod-body>div>ul>li>ul`).hide().hover(function(e){e.stopPropagation();});
             $(`#myFullMod${i}>.fullmod-content>.fullmod-body>div>ul>li`).hover(
                 function(){$(this).find('ul').slideDown();
                 },function(){$(this).find('ul').slideUp();}
