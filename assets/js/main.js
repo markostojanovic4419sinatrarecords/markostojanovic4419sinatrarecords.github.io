@@ -221,16 +221,16 @@ if(window.location=='https://markostojanovic4419sinatrarecords.github.io/store.h
     var myFullMod3 = $('#myFullMod3').fullmod();
     var myFullMod4 = $('#myFullMod4').fullmod();
     $('#jazzRecords div:eq(0) a').click(function(){
-        myFullMod1.show()
+        myFullMod1.show();
     });
     $('#jazzRecords div:eq(1) a').click(function(){
-        myFullMod2.show()
+        myFullMod2.show();
     });
     $('#jazzRecords div:eq(2) a').click(function(){
-        myFullMod3.show()
+        myFullMod3.show();
     });
     $('#jazzRecords div:last a').click(function(){
-        myFullMod4.show()
+        myFullMod4.show();
     });
     var rockAndRollAlbumImages = new Array("https://markostojanovic4419sinatrarecords.github.io/assets/img/aBiggerBang.jpg","https://markostojanovic4419sinatrarecords.github.io/assets/img/elvisIsBack.jpg","https://markostojanovic4419sinatrarecords.github.io/assets/img/25.jpg","https://markostojanovic4419sinatrarecords.github.io/assets/img/memoryAlmostFull.jpg");
     var rockAndRollAlbumLabels = new Array(`"A Bigger Bang"`,`"Elvis Is Back!"`,`"25"`,`"Memory Almost Full"`);
@@ -287,16 +287,16 @@ if(window.location=='https://markostojanovic4419sinatrarecords.github.io/store.h
     var myFullMod7 = $('#myFullMod7').fullmod();
     var myFullMod8 = $('#myFullMod8').fullmod();
     $('#rockAndRollRecords div:eq(0) a').click(function(){
-        myFullMod5.show()
+        myFullMod5.show();
     });
     $('#rockAndRollRecords div:eq(1) a').click(function(){
-        myFullMod6.show()
+        myFullMod6.show();
     });
     $('#rockAndRollRecords div:eq(2) a').click(function(){
-        myFullMod7.show()
+        myFullMod7.show();
     });
     $('#rockAndRollRecords div:last a').click(function(){
-        myFullMod8.show()
+        myFullMod8.show();
     });
     var rhythmAndBluesAlbumImages = new Array("https://markostojanovic4419sinatrarecords.github.io/assets/img/setTheNightToMusic.jpg","https://markostojanovic4419sinatrarecords.github.io/assets/img/backToBasics.jpg","https://markostojanovic4419sinatrarecords.github.io/assets/img/spiritInTheDark.jpg","https://markostojanovic4419sinatrarecords.github.io/assets/img/yourHeartsInGoodHands.jpg");
     var rhythmAndBluesAlbumLabels = new Array(`"Set the Night to Music"`,`"Back to Basics"`,`"Spirit in the Dark"`,`"Your Heart's in Good Hands"`);
@@ -353,16 +353,16 @@ if(window.location=='https://markostojanovic4419sinatrarecords.github.io/store.h
     var myFullMod11 = $('#myFullMod11').fullmod();
     var myFullMod12 = $('#myFullMod12').fullmod();
     $('#rhythmAndBluesRecords div:eq(0) a').click(function(){
-        myFullMod9.show()
+        myFullMod9.show();
     });
     $('#rhythmAndBluesRecords div:eq(1) a').click(function(){
-        myFullMod10.show()
+        myFullMod10.show();
     });
     $('#rhythmAndBluesRecords div:eq(2) a').click(function(){
-        myFullMod11.show()
+        myFullMod11.show();
     });
     $('#rhythmAndBluesRecords div:last a').click(function(){
-        myFullMod12.show()
+        myFullMod12.show();
     });
     var traditionalPopAlbumImages = new Array("https://markostojanovic4419sinatrarecords.github.io/assets/img/howDoesThatGrabYou.jpg","https://markostojanovic4419sinatrarecords.github.io/assets/img/weAreInLove.jpg","https://markostojanovic4419sinatrarecords.github.io/assets/img/seattle.jpg","https://markostojanovic4419sinatrarecords.github.io/assets/img/classicSongsMyWay.jpg");
     var traditionalPopAlbumLabels = new Array(`"How Does That Grab You?"`,`"We Are in Love"`,`"Seattle"`,`"Classic Songs, My Way"`);
@@ -419,24 +419,24 @@ if(window.location=='https://markostojanovic4419sinatrarecords.github.io/store.h
     var myFullMod15 = $('#myFullMod15').fullmod();
     var myFullMod16 = $('#myFullMod16').fullmod();
     $('#traditionalPopRecords div:eq(0) a').click(function(){
-        myFullMod13.show()
+        myFullMod13.show();
     });
     $('#traditionalPopRecords div:eq(1) a').click(function(){
-        myFullMod14.show()
+        myFullMod14.show();
     });
     $('#traditionalPopRecords div:eq(2) a').click(function(){
-        myFullMod15.show()
+        myFullMod15.show();
     });
     $('#traditionalPopRecords div:last a').click(function(){
-        myFullMod16.show()
+        myFullMod16.show();
     });
     function generatingExpandingList() {
         for (var i=1;i<=(jazzAlbumLabels+rockAndRollAlbumLabels+rhythmAndBluesAlbumLabels+traditionalPopAlbumLabels).length;i++){
-            $(`#myFullMod${i}>.fullmod-content>.fullmod-body>div>ul>li>ul`).hide().hover(function(e){e.stopPropagation();});
+            $(`#myFullMod${i}>.fullmod-content>.fullmod-body>div>ul>li>ul`).hide();
             $(`#myFullMod${i}>.fullmod-content>.fullmod-body>div>ul>li`).hover(
                 function(){$(this).find('ul').slideDown();
                 },function(){$(this).find('ul').slideUp();}
-            )
+            );
         }
     }
     generatingExpandingList();
